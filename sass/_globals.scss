@@ -1,0 +1,76 @@
+@import "compass/css3";
+
+
+/* Standarts */
+	$font-family :'Lato', Arial, sans-serif; // Font manually inserted (_fonts.scss) for offline or restricted acess
+	$font-size: 14px;
+	$base-text : #444; 
+	$bg-color : #eee;
+/* Standarts */ 
+
+/* Project Theme */
+	$main-color : #193f70;
+	$secondary-color : #8293aa;
+/* /Project Theme */
+
+/* Contextual Colors */
+	$warning-color: #FFBF00;
+	$info-color: #008aff;
+  $muted-color: #999;
+  $success-color: #47ad10;
+  $danger-color: #d14242;
+/* /Contextual Colors */
+
+/* Bootstrap Grid */
+	/* Bootstrap - Grid spacing */
+  $bs-spacing : 20px;
+	/* Bootstrap - Grid Gutter*/
+  $bs-gutter : $bs-spacing / 2;
+/* /Bootstrap Grid */
+
+/* Header */
+	$header-bg-color: $main-color;
+	$header-height : 80px;
+/* /Header */
+/* Section Header */
+	$section-header-bg-color : #f5f5f5;
+	$section-header-height : 40px;
+
+
+/* /Section Header */
+
+
+/* Sidebars */
+	/* Sidebar-left*/
+	$left-sidebar-width : 210px;
+
+	/* /Sidebar-left*/
+	/* Sidebar-right*/
+	$right-sidebar-width : 70px; // width of the menu-icon sidebar
+	$right-sidebar-main-content-region-width : 650px; // sidth of the area designed for blocks
+	/* /Sidebar-left*/
+	$sidebar-bg-Color : #fff;
+	$sidebar-border : 1px solid #d4d4d4;
+/* Sidebar */
+
+/* /Template */
+
+/* Mixins */
+
+	/* Clear UL menus padding and styling and clearfix (BS) */
+		@mixin clear-menu-list(){
+			list-style:none;
+			padding:0;
+			margin:0;
+		}
+		@mixin clearfix(){
+			&:before,
+			&:after{
+			  display: table; 
+			  content: " ";
+			  clear: both;
+			}
+		}
+	/* Clear UL menus padding and styling */
+/* /Mixins */
+

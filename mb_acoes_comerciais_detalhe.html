@@ -1,0 +1,2150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <!-- Header de todas as páginas -->
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Favicon -->
+      <link rel="icon" href="favicon.ico">
+
+      <!-- FontAwesome Icon Pack -->
+      <link href="css/font-awesome.css" rel="stylesheet">
+
+      <!-- CUstom Scrollbar -->
+      <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/bootstrap-select.css" rel="stylesheet"><!-- Custom Select -->
+      <link href="css/bootstrap-datetimepicker.css" rel="stylesheet"><!-- timepicker -->
+
+      <!-- Custom styles for this template -->
+      <link href="css/bootstrap-theme.css" rel="stylesheet">
+      <link href="css/main-style.css" rel="stylesheet">
+
+    <!-- /Header de todas as páginas -->
+
+    <title>00000 - PF: Depósito a Prazo - Venda Para Maiores Investidores - Mercantil do Brasil</title>
+
+  </head>
+
+  <body role="document" class="preload">
+
+    <nav id="header" class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="navbar-header col-xs-2">
+            <a href="mb_home.html" class="header-logo"><img src="img/assets/mercantil-logo.png"/></a>
+          </div><!-- .navbar-header -->
+
+          <div class="col-xs-10">
+
+            <div id="navbar">
+              <div class="row">
+                <div class="col-xs-3">
+                  <form id="main-search">
+                    <div class="form-group form-group-sm">
+                      <div  class="input-group">
+                        <input type="text" class="form-control" id="search-field" placeholder="Digite para buscar">
+                        <span class="input-group-btn">
+                          <button type="submit" class="btn btn-icon btn-search btn-sm">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                          </button>
+                        </span>
+                      </div><!-- input-group -->
+                    </div><!-- form-group -->
+                  </form><!-- #main-search -->
+                </div><!-- .col-xs-5 -->
+                <div class="col-xs-7">
+                  <div id="tools-menu">
+                    <a href="#" class="btn icon-menu-item">
+                      <i class="fa fa-book tool-menu-icon"></i>
+                      <span>Tutorial</span>
+                    </a><!-- icon-menu-item -->
+                    <a href="#" class="btn icon-menu-item">
+                      <i class="fa fa-external-link tool-menu-icon"></i>
+                      <span>Estação MB</span>
+                    </a><!-- icon-menu-item -->                    
+                    <a href="#" class="btn icon-menu-item">
+                      <i class="fa fa-lightbulb-o tool-menu-icon"></i>
+                      <span>Demanda</span>
+                    </a><!-- icon-menu-item -->
+                    <a href="#" class="btn icon-menu-item">
+                      <i class="fa fa-sort-amount-desc tool-menu-icon"></i>
+                      <span>Gestão da Fila</span>
+                    </a><!-- icon-menu-item -->
+
+                  </div><!-- #tools-menu -->
+                </div><!-- col-xs-7 -->
+                <div class="col-xs-2">
+                  <div id="logged-user">
+                    <div class="user-profile-info">
+                      <div class="user-name">Jordania Soares Alvares Oliveira Ribeiro Souza</div>
+                      <div class="user-code">B000000</div>
+                    </div><!-- user-profile-info -->
+                  </div>
+                </div><!-- /.col-xs-2 -->
+              </div><!-- row -->
+
+            </div><!-- #navbar -->
+          </div><!-- col-xs-9 -->
+        </div><!-- row -->
+      </div><!-- .container-fluid -->
+    </nav><!-- #header -->
+
+    <div id="section-header">
+      <!-- <h2 class="section-title">Banco Mercantil <strong>Subtítulo</strong></h2> -->
+
+      <div class="section-menu">
+        <ul>
+          <li>
+            <a href="#" class="btn">
+              <i class="fa fa-briefcase"></i>
+              <span>Mesa de Trabalho</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn">
+              <i class="fa fa-user"></i>
+              <span>Meu Cliente</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn popover-trigger active" data-get-content="popover-wallet" data-placement="bottom">
+              <i class="fa fa-users"></i>
+              <span>Minha Carteira</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn">
+              <i class="fa fa-building"></i>
+              <span>Minha Agência</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn">
+              <i class="fa fa-sitemap"></i>
+              <span>Administração</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <ul id="section-notifications">
+        <li>
+          <a href="#">
+            <i class="fa fa-bell"></i>
+            <span class="sr-only">Notificações</span>
+            <span class="icon-badge">12</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-calendar"></i>
+            <span class="sr-only">Agenda</span>
+            <span class="icon-badge">23</span>
+          </a>
+        </li>
+      </ul><!-- #section-notifications -->
+    </div><!-- #section-header -->
+
+    <div id="main">
+
+      <div class="sidebar sidebar-right">
+
+        <ul class="icon-menu">
+          <li id="client-detail" class="disabled">
+            <a href="#">
+              <span class="fa fa-user icon-menu-icon"></span>
+              <span class="icon-menu-title">Visão Cliente</span>
+            </a>
+          </li>
+
+          <li id="run-business-action" class="disabled">
+            <a href="#">
+              <span class="fa fa-pencil-square icon-menu-icon"></span>
+              <span class="icon-menu-title">Executar Ação Comercial</span>
+            </a>
+          </li>
+
+          <li id="run-operation-business-action" class="disabled">
+            <a href="#">
+              <span class="fa fa-pencil-square-o icon-menu-icon"></span>
+              <span class="icon-menu-title">Executar Operação da Ação Comercial</span>
+            </a>
+          </li>
+
+          <li id="related-information">
+            <a href="#">
+              <span class="fa fa-info-circle icon-menu-icon"></span>
+              <span class="icon-menu-title">Informações Relacionadas</span>
+            </a>
+          </li>
+
+          <li id="parallel-activity">
+            <a href="#">
+              <span class="fa fa-files-o icon-menu-icon"></span>
+              <span class="icon-menu-title">Atividades Simultâneas</span>
+              <span class="icon-badge">23</span>
+            </a>
+          </li>
+        </ul><!-- icon-menu -->
+
+        <div class="sidebar-content-area">
+          <div class="sidebar-content" id="sidebar-content-run-business-action">
+
+            <a href="#" class="sidebar-content-area-close"><i class="fa fa-times-circle"></i></a>
+
+            <div class="sidebar-content-header"> 
+
+              <div class="sidebar-content-title">
+                <h2>Cornelius Ellwood Peart</h2>
+                <h4 class="header-subtitle">Pessoa Física - Masculino - 52 Anos</h4>
+              </div><!-- /.sidebar-title -->
+
+              <div class="sidebar-header-actions">
+                <ul>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-sm btn-icon">INSS</a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-sm btn-icon">LPA</a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-sm btn-icon"><i class="fa fa-ban"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-sm btn-icon"><img src="img/assets/icon-acoes-comerciais.png"/></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn btn-primary btn-sm btn-icon">MB</a>
+                  </li>
+                </ul>
+              </div><!-- /.sidebar-header-actions -->
+
+              <div class="stat-bar">
+
+                <div class="stat">
+                  <span class="stat-label">Nº Referencial</span><!-- /.stat-label -->
+                  <span class="stat-body">123456</span><!-- /.stat-body -->
+                </div><!-- /.stat -->
+
+                <div class="stat">
+                  <span class="stat-label">CPF</span><!-- /.stat-label -->
+                  <span class="stat-body">123.155.876-88</span><!-- /.stat-body -->
+                </div><!-- /.stat -->
+
+                <div class="stat">
+                  <span class="stat-label">Celular</span><!-- /.stat-label -->
+                  <span class="stat-body">(11) 89956-6698 <a href="#" class="btn btn-icon btn-sm"><i class="fa fa-eye"></i></a></span><!-- /.stat-body -->
+                </div><!-- /.stat -->
+
+                <div class="indicator stat">
+                  <span class="indicator-icon"><i class="fa fa-diamond"></i></span><!-- /.stat-label -->
+                  <span class="stat-label">Cliente</span><!-- /.stat-label -->
+                  <span class="stat-body">Diamante</span><!-- /.stat-body -->
+                </div><!-- /.stat -->
+
+                <a href="#" class="btn btn-primary btn-icon"><i class="fa fa-user"></i></a>
+              </div><!-- stat-bar -->
+
+            </div><!-- sidebar-content-header -->
+
+            <div class="sidebar-content-body custom-scrollbar">
+
+              <h3>00000 - PF: Lorem ipsum dolor - Sit amet consectetuer</h3>
+
+              <div class="block">
+                <div class="block-header hide-block-content">
+                  <div class="block-title">Registrar Resultado de Contato / Tarefa</div>
+
+                  <ul class="block-controls">
+                    <li>
+                      <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                    </li>
+                  </ul>
+                </div><!-- .block-header -->
+
+                <div class="collapse in">
+                  <div class="block-content">
+
+                    <form action="" class="form-horizontal">
+                      
+                      <div class="form-group">
+                        <label for="" class="col-xs-4 control-label">Resultado de Contato</label>
+                        <div class="col-xs-6">
+                          <select name="" id="">
+                            <option value="Sem interesse">Sem interesse</option>
+                            <option value="Não movimento mais com o MB">Não movimento mais com o MB</option>
+                            <option value="Faleceu">Faleceu</option>
+                            <option value="Em negociação com o cliente">Em negociação com o cliente</option>
+                            <option value="Cliente com perfil investidor">Cliente com perfil investidor</option>
+                            <option value="Oferta melhor em outro banco">Oferta melhor em outro banco</option>
+                            <option value="PN vetada">PN vetada</option>
+                            <option value="Banco não tem interesse no negócio">Banco não tem interesse no negócio</option>
+                            <option value="Realizou operação em outro banco">Realizou operação em outro banco</option>
+                            <option value="PN comporta">PN comporta</option>
+                            <option value="PN aprovada">PN aprovada</option>
+                            <option value="Comprou no período da ação">Comprou no período da ação</option>
+                          </select>
+                        </div>
+                      </div><!-- form-group -->
+                      
+                      <div class="form-group">
+                        <label for="" class="col-xs-4 control-label">Humor do Cliente</label>
+                        <div class="col-xs-8">
+                          <div class="radio-inline">
+                            <label>
+                              <input type="radio" name="client-humor" id="client-humor-1" value=""> <span>Bom</span> <img src="img/assets/ic-smile-happy.png"/>
+                            </label>
+                          </div><!-- radio -->
+                          <div class="radio-inline">
+                            <label>
+                              <input type="radio" name="client-humor" id="client-humor-2" value=""> <span>Regular</span> <img src="img/assets/ic-smile-normal.png"/>
+                            </label>
+                          </div><!-- radio -->
+                          <div class="radio-inline">
+                            <label>
+                              <input type="radio" name="client-humor" id="client-humor-3" value=""> <span>Irritado</span> <img src="img/assets/ic-smile-angry.png"/>
+                            </label>
+                          </div><!-- radio -->
+                        </div>
+                      </div><!-- form-group -->
+                      
+                      <div class="form-group">
+                        <label for="" class="col-xs-4 control-label">Detalhe do Contato</label>
+                        <div class="col-xs-6">
+                          <textarea name="" id="" class="form-control" cols="30" rows="3"></textarea>
+                        </div><!-- col-xs-6 -->
+                      </div><!-- form-group -->
+                      
+                      <div class="form-group collapse-next">
+                        <div class="col-xs-8 col-xs-offset-4">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" name="" id="" value="" data-collapse-show="schedule-task" > <span>Agendar Tarefa para este contato</span>
+                            </label>
+                          </div><!-- radio -->
+                        </div>
+                      </div><!-- form-group -->
+
+                      <div class="collapse collapse-item" id="schedule-task">
+                        <div class="well">
+                      
+                          <div class="form-group">
+                            <label for="" class="col-xs-4 control-label">Data e Hora da Tarefa</label>
+                            <div class="col-xs-4 ">
+                              <input type='text' class="form-control datetimepicker" placeholder="dd/mm/aa - hh:mm" value=""/>
+                            </div><!-- col-xs-4  -->
+                          </div><!-- form-group -->
+                        
+                          <div class="form-group">
+                            <label for="" class="col-xs-4 control-label">Descrição da Tarefa</label>
+                            <div class="col-xs-6">
+                              <textarea name="" id="" class="form-control" cols="30" rows="3"></textarea>
+                            </div><!-- col-xs-6 -->
+                          </div><!-- form-group -->
+
+                        </div><!-- /.well -->
+
+                      </div><!-- schedule-task -->
+
+                      <div class="block-buttons">
+                        <ul>
+                          <li><a href="#" class="btn btn-primary">Registrar</a></li>
+                        </ul>
+                      </div><!-- /.block-buttons -->
+
+                    </form><!-- /.form-horizontal -->
+                    
+                  </div><!-- .block-content -->
+                </div><!-- collapse -->
+              </div><!-- block -->
+
+              <div class="block">
+                <div class="block-header hide-block-content">
+                  <div class="block-title">Histórico de Contato na Ação Comercial</div>
+
+                  <ul class="block-controls">
+                    <li>
+                      <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                    </li>
+                  </ul>
+
+                </div><!-- .block-header -->
+
+                <div class="collapse in">
+                  <div class="block-content">
+
+                    <div class="custom-table table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Data</th>
+                            <th>Resultado do Contato</th>
+                            <th>Canal</th>
+                            <th>Usuário Responsável</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="#">20/04/2015</a></td>
+                            <td>Lorem ipsum dolor sit</td>
+                            <td>Internet Banking</td>
+                            <td>Rodrigo Teixeira</td>
+                          </tr>
+                          <tr>
+                            <td><a href="#">31/04/2015</a></td>
+                            <td>Lorem ipsum dolor sit</td>
+                            <td>Auto-Atendimento</td>
+                            <td>Maria Silveira</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div><!-- table-responsive -->
+                    
+                  </div><!-- .block-content -->
+                </div><!-- collapse -->
+              </div><!-- block -->
+
+              <div class="block">
+                <div class="block-header hide-block-content">
+                  <div class="block-title">Histórico de Relacionamento</div>
+
+                  <ul class="block-controls">
+                    <li>
+                      <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                    </li>
+                  </ul>
+
+                </div><!-- .block-header -->
+
+                <div class="collapse in">
+                  <div class="block-content">
+
+                    <p>Espaço para o Histórico de Relacionamento</p>
+                    
+                  </div><!-- .block-content -->
+                </div><!-- collapse -->
+              </div><!-- block -->
+
+              <div class="block">
+                <div class="block-header hide-block-content">
+                  <div class="block-title">Informações Adicionais</div>
+
+                  <ul class="block-controls">
+                    <li>
+                      <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                    </li>
+                  </ul>
+                </div><!-- .block-header -->
+
+                <div class="collapse in">
+                  <div class="block-content">
+
+                    <div class="custom-table custom-table-vertical table-responsive">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <th width="45%">Número do Benefício</th>
+                            <td>0000000000</td>
+                          </tr>
+                          <tr>
+                            <th>Data Vencimento Prova de Vida</th>
+                            <td>27/08/2015</td>
+                          </tr>
+                          <tr>
+                            <th>Identificador do Beneficiário</th>
+                            <td>0000000000</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
+                    </div><!-- .custom-table -->
+                  </div><!-- .block-content -->
+                </div><!-- collapse -->
+              </div><!-- block -->
+
+              <div class="block">
+                <div class="block-header hide-block-content">
+                  <div class="block-title">Informações de Compra na Ação Comercial</div>
+
+                  <ul class="block-controls">
+                    <li>
+                      <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                    </li>
+                  </ul>
+
+                </div><!-- .block-header -->
+
+                <div class="collapse in">
+                  <div class="block-content">
+
+                    <div class="custom-table table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Data</th>
+                            <th>Valor Contratado</th>
+                            <th>Taxa</th>
+                            <th>Prazo</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>30/07/2015</td>
+                            <td>R$ 123.456,78</td>
+                            <td>0,98%</td>
+                            <td>12 meses</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div><!-- table-responsive -->
+                    
+                  </div><!-- .block-content -->
+                </div><!-- collapse -->
+              </div><!-- block -->
+
+              <div class="block">
+                <div class="block-header hide-block-content">
+                  <div class="block-title">Outras Ações Comerciais Deste Cliente</div>
+
+                  <ul class="block-controls">
+                    <li>
+                      <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                    </li>
+                  </ul>
+
+                </div><!-- .block-header -->
+
+                <div class="collapse in">
+                  <div class="block-content">
+
+                    <div class="custom-table table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th width="40%">Nome da Ação Comercial</th>
+                            <th>Descrição</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="#">00000 - Lorem ipsum dolor sit amet</a></td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing.</td>
+                          </tr>
+                          <tr>
+                            <td><a href="#">00000 - Lorem ipsum dolor sit amet</a></td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing.</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div><!-- table-responsive -->
+                    
+                  </div><!-- .block-content -->
+                </div><!-- collapse -->
+              </div><!-- block -->
+              
+            </div><!-- /.sidebar-content-body -->
+
+          
+          </div><!-- /.sidebar-content-area -->
+        </div><!-- /.sidebar-content-area -->
+      </div><!-- #sidebar-right -->
+
+      <div class="sidebar sidebar-left">
+        <a href="#" class="sidebar-minify-left btn btn-icon">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="sidebar-content">
+
+          <div class="sidebar-header">
+            <div class="sidebar-context">
+              <div class="sidebar-context-title">Minha Carteira</div><!-- /.sidebar-context-title -->
+              <div class="sidebar-context-body">
+                <a href="#">Henrique da Silva</a>
+              </div><!-- /.sidebar-context-body -->
+            </div><!-- /.sidebar-context -->
+          </div><!-- sidebar-header -->
+
+          <ul class="sidebar-menu-collapsible sidebar-menu">
+            <li>
+              <a role="button" class="collapsed" data-toggle="collapse" href="#submenu-movimentos" aria-expanded="false" aria-controls="submenu-movimentos">
+                <span class="menu-label">Ação Comercial</span>
+              </a>
+              <div class="collapse" id="submenu-movimentos">
+                <ul class="menu">
+                  <li><a href="#">Todas as Ações</a></li>
+                  <li><a href="#">Ações por foco</a></li>
+                </ul>
+              </div><!-- collapse -->
+          </ul>
+        </div><!-- sidebar-content -->
+      </div><!-- #sidebar-left -->
+
+      <div id="main-content-region" >
+        <div id="main-content">
+
+          <ol class="breadcrumb">
+            <li><a href="#">Henrique da Silva</a></li>
+            <li><a href="mb_acoes_comerciais_por_foco.html">Ações por Foco</a></li>
+            <li><a href="mb_acoes_comerciais.html">Ações Comerciais - Cheque Especial </a></li>
+            <li class="active">00000 - PF: Depósito a Prazo - Venda Para Maiores Investidores</li>
+          </ol><!-- breadcrumb -->
+
+          <div class="page-header">
+            <h1>00000 - PF: Depósito a Prazo - Venda Para Maiores Investidores</h1>
+            <a href="#" role="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#action-detail">
+              <i class="fa fa-eye"></i>
+              <span>Veja Mais</span>
+            </a>
+          </div><!-- page-header -->
+
+          <div class="filter-bar">
+            <a href="#" id="filter-options" class="btn btn-sm btn-primary popover-trigger" data-placement="bottom" data-get-content="popover-filter-main-options">
+              <i class="fa fa-filter"></i>
+              <span>Filtro</span>
+              <i class="fa fa-caret-down"></i>
+            </a>
+
+            <div class="filters">
+
+              <div class="filter">
+                <span class="filter-label">Correntista</span>
+                <span class="label label-default">Sim <a href="#"><i class="fa fa-times"></i></a></span>
+              </div><!-- filter -->
+
+              <div class="filter">
+                <span class="filter-label">% de utilização de Crédito Rotativo</span>
+                <span class="label label-default">Entre 22/01 e 22/02 <a href="#"><i class="fa fa-times"></i></a></span>
+              </div><!-- filter -->
+            </div><!-- filters -->
+
+            <a href="#" class="clear-filters btn btn-sm">
+              <span>Limpar Filtros</span>
+              <i class="fa fa-times-circle"></i>
+            </a>
+          </div><!-- filter-bar -->
+
+          <div class="table-results table-responsive custom-scrollbar">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th colspan="2"></th>
+                  <th colspan="2" class="theader-classifications">Último Contato</th>
+                  <th></th>
+                  <th colspan="2" class="theader-classifications">Vendas</th>
+                </tr>
+                <tr>
+                  <th width="1"></th>
+                  <th>
+                    <a href="#" class="btn btn-sm">
+                      <span>Cliente</span>
+                      <i class="fa fa-filter"></i>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" class="btn btn-sm">
+                      <span>Gerente</span>
+                      <i class="fa fa-filter"></i>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" class="btn btn-sm">
+                      <span>Canais Eletrônicos</span>
+                      <i class="fa fa-filter"></i>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" class="btn btn-sm">
+                      <span>LPA Disponível Total</span>
+                      <i class="fa fa-filter"></i>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" class="btn btn-sm">
+                      <span>Vendido</span>
+                      <i class="fa fa-filter"></i>
+                    </a>
+                  </th>
+                  <th>
+                    <a href="#" class="btn btn-sm">
+                      <span>Valor</span>
+                      <i class="fa fa-filter"></i>
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td></td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+                <tr class="table-result-link">
+                  <td class="icon-td"><i class="fa fa-eye text-primary"></i></td>
+                  <td class="text-highlight1">Jean Harper</td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>
+                    <span class="text-muted">01/01/2015</span>
+                    <span>Sit Amet</span>
+                  </td>
+                  <td>R$ 5.695,00</td>
+                  <td>Sim</td>
+                  <td>R$ 4.000,00</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="results-end">Sem mais resultados</div><!-- results-end -->
+
+            <!-- Filter main Options -->
+            <div class="custom-popover" id="popover-filter-main-options">
+              <a href="#" class="popover-close"><i class="fa fa-times-circle"></i></a>
+              <div class="popover-body popover-xs">
+                
+                <form>
+
+                  <div class="form-group">
+                    <label>Correntista</label>
+                    <select>
+                      <option selected>Todos</option>
+                      <option>Sim</option>
+                      <option>Não</option>
+                    </select>
+                  </div><!-- form-group -->
+
+                  <div class="form-group">
+                    <label>Risco atual no Produto da Ação</label>
+                    <select>
+                      <option selected>Todos</option>
+                      <option>Sim</option>
+                      <option>Não</option>
+                    </select>
+                  </div><!-- form-group -->
+
+                  <div class="form-group">
+                    <label>% de utilização do crédito rotativo</label>
+                    <div class="row">
+                      <div class="col-xs-3">
+                        <p class="form-control-static text-center text-muted">Entre</p>
+                      </div><!-- col-xs-3 -->
+                      <div class="col-xs-4">
+                        <input type='text' class="form-control" value=""/>
+                      </div><!-- col-xs-4 -->
+                      <div class="col-xs-1">
+                        <p class="form-control-static text-center text-muted">e</p>
+                      </div><!-- col-xs-1 -->
+                      <div class="col-xs-4">
+                        <input type='text' class="form-control" value=""/>
+                      </div><!-- col-xs-4 -->
+                    </div><!-- row -->
+                  </div><!-- form-group -->
+
+                  <div class="form-group">
+                    <label>Cartão de crédito em atraso</label>
+                    <select>
+                      <option selected>Todos</option>
+                      <option>Sim</option>
+                      <option>Não</option>
+                    </select>
+                  </div><!-- form-group -->
+
+                  <div class="form-group">
+                    <label>Saldo credor em conta corrente</label>
+                    <div class="row">
+                      <div class="col-xs-3">
+                        <p class="form-control-static text-center text-muted">Entre</p>
+                      </div><!-- col-xs-3 -->
+                      <div class="col-xs-4">
+                        <input type='text' class="form-control" value=""/>
+                      </div><!-- col-xs-4 -->
+                      <div class="col-xs-1">
+                        <p class="form-control-static text-center text-muted">e</p>
+                      </div><!-- col-xs-1 -->
+                      <div class="col-xs-4">
+                        <input type='text' class="form-control" value=""/>
+                      </div><!-- col-xs-4 -->
+                    </div><!-- row -->
+                  </div><!-- form-group -->
+
+                  <div class="popover-actions">
+                    <button type="button" class="btn btn-default btn-icon popover-close" data-toggle="tooltip" title="Cancelar"><span class="sr-only">Cancelar</span><i class="fa fa-times"></i></button>
+                    <button type="button" class="btn btn-primary btn-icon popover-close" data-toggle="tooltip" title="Aceitar"><span class="sr-only">Aceitar</span><i class="fa fa-check"></i></button>
+                  </div>
+                </form>
+
+
+
+              </div><!-- .popover-body -->
+            </div><!-- popover-filter-main-options -->
+          </div><!-- table-responsive -->
+        </div><!-- main-content -->
+      </div><!-- #main-content-region -->  
+    </div><!-- .main -->
+
+    <!-- Popover Minha Carteira -->
+    <div class="custom-popover" id="popover-wallet">
+      <a href="#" class="popover-close"><i class="fa fa-times-circle"></i></a>
+      <div class="popover-body popover-md">
+            
+        <form>
+          <div class="form-group">
+            <label>Selecione uma Opção de Consulta</label>
+            <select>
+              <option value="">Gerente 1</option>
+              <option value="">Gerente 2</option>
+              <option value="">Gerente 3</option>
+              <option value="">Gerente 4</option>
+              <option value="">Gerente 5</option>
+            </select>
+          </div><!-- form-group -->
+
+          <div class="popover-actions">
+            <button type="button" class="btn btn-default btn-icon popover-close" data-toggle="tooltip" title="Cancelar">
+              <span class="sr-only">Cancelar</span>
+              <i class="fa fa-times"></i>
+            </button>
+            <a href="mb_acoes_comerciais_por_foco.html"  class="btn btn-primary" data-toggle="tooltip" title="Aceitar">
+              <span>Acessar</span>
+              <i class="fa fa-sign-in"></i>
+            </a>
+          </div><!-- form-group -->
+
+        </form>
+      </div><!-- .popover-body -->
+    </div><!-- popover-wallet -->
+    <!-- /Popover Minha Carteira -->
+
+    <!-- Modal action-detail -->
+    <div class="modal fade" id="action-detail" tabindex="-1" role="dialog" aria-labelledby="action-detail-label" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="action-detail-label">Detalhes</h4>
+            <div class="pull-right">
+              <ul class="modal-actions">
+                <li>
+                  <button type="button" class="close btn" data-dismiss="modal" aria-label="Fechar"><i class="fa fa-times"></i></button>
+                </li>
+              </ul>
+            </div>
+          </div><!-- .modal-header -->
+          <div class="modal-body">
+            <h2 class="text-primary">00000 - PF: Depósito a Prazo - Venda Para Maiores Investidores</h2>
+
+            <div class="row">
+              <div class="col-xs-6">
+
+                <div class="block">
+                  <div class="block-header hide-block-content">
+                    <div class="block-title">Período</div>
+
+                    <ul class="block-controls">
+                      <li>
+                        <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                      </li>
+                    </ul>
+
+                  </div><!-- .block-header -->
+
+                  <div class="collapse in">
+                    <div class="block-content">
+
+                      <p>De 01 de Janeiro de 2015 a 31 de Dezembro de 2015</p>
+                      
+                    </div><!-- .block-content -->
+                  </div><!-- collapse -->
+                </div><!-- block -->
+
+                <div class="block">
+                  <div class="block-header hide-block-content">
+                    <div class="block-title">Objetivo</div>
+
+                    <ul class="block-controls">
+                      <li>
+                        <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                      </li>
+                    </ul>
+
+                  </div><!-- .block-header -->
+
+                  <div class="collapse in">
+                    <div class="block-content">
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
+
+                    </div><!-- .block-content -->
+                  </div><!-- collapse -->
+                </div><!-- block -->
+
+                <div class="block">
+                  <div class="block-header hide-block-content">
+                    <div class="block-title">Foco</div>
+
+                    <ul class="block-controls">
+                      <li>
+                        <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                      </li>
+                    </ul>
+
+                  </div><!-- .block-header -->
+
+                  <div class="collapse in">
+                    <div class="block-content">
+
+                      <ul>
+                        <li>Empréstimos INSS</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+
+                    </div><!-- .block-content -->
+                  </div><!-- collapse -->
+                </div><!-- block -->
+              </div><!-- /.col-xs-6 -->
+              <div class="col-xs-6">
+
+                <div class="block">
+                  <div class="block-header hide-block-content">
+                    <div class="block-title">Material de Comunicação</div>
+
+                    <ul class="block-controls">
+                      <li>
+                        <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                      </li>
+                    </ul>
+
+                  </div><!-- .block-header -->
+
+                  <div class="collapse in">
+                    <div class="block-content">
+
+                      <img src="img/img-6.jpg" alt="" class="image-responsive" />
+                      
+                    </div><!-- .block-content -->
+                  </div><!-- collapse -->
+                </div><!-- block -->
+
+                <div class="block">
+                  <div class="block-header hide-block-content">
+                    <div class="block-title">Canais de Relacionamento</div>
+
+                    <ul class="block-controls">
+                      <li>
+                        <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                      </li>
+                    </ul>
+
+                  </div><!-- .block-header -->
+
+                  <div class="collapse in">
+                    <div class="block-content">
+                      <ul>
+                        <li>Gerente comercial / contas</li>
+                        <li>Supervisor administrativo</li>
+                        <li>Gerente administrativo</li>
+                      </ul>
+                    </div><!-- .block-content -->
+                  </div><!-- collapse -->
+                </div><!-- block -->
+              </div><!-- /.col-xs-6 -->
+            </div><!-- /.row -->
+
+            <div class="block">
+              <div class="block-header hide-block-content">
+                <div class="block-title">Ofertas de Produto de Crédito</div>
+
+                <ul class="block-controls">
+                  <li>
+                    <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                  </li>
+                </ul>
+
+              </div><!-- .block-header -->
+
+              <div class="collapse in">
+                <div class="block-content">
+
+                  <div class="custom-table custom-table-vertical table-responsive">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <th>Descrição produto</th>
+                          <td>MB Visa Gold Chip Reserva</td>
+                          <td>MB Visa Gold Chip Reserva</td>
+                        </tr>
+                        <tr>
+                          <th>Faixa de prazo</th>
+                          <td>120</td>
+                          <td>80</td>
+                        </tr>
+                        <tr>
+                          <th>Faixa de Valor</th>
+                          <td>50</td>
+                          <td>66</td>
+                        </tr>
+                        <tr>
+                          <th>Valor da taxa (%)</th>
+                          <td>10</td>
+                          <td>12</td>
+                        </tr>
+                        <tr>
+                          <th>Indicador de mala direta</th>
+                          <td><span class="text-danger">Não</span></td>
+                          <td><span class="text-success">Sim</span></td>
+                        </tr>
+                        <tr>
+                          <th>Desconto da TAC (%)</th>
+                          <td>10</td>
+                          <td>12</td>
+                        </tr>
+                        <tr>
+                          <th>Quantidade de dias Carência</th>
+                          <td>3</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <th>Indicação do prêmio pontualidade</th>
+                          <td><span class="text-danger">Não</span></td>
+                          <td><span class="text-success">Sim</span></td>
+                        </tr>
+                        <tr>
+                          <th>Descrição das garantias</th>
+                          <td>Recebíveis - 50%</td>
+                          <td>Recebíveis - 50%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><!-- table-responsive -->
+                  
+                </div><!-- .block-content -->
+              </div><!-- collapse -->
+            </div><!-- block -->
+
+            <div class="block">
+              <div class="block-header hide-block-content">
+                <div class="block-title">Ofertas de Cartões</div>
+
+                <ul class="block-controls">
+                  <li>
+                    <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                  </li>
+                </ul>
+
+              </div><!-- .block-header -->
+
+              <div class="collapse in">
+                <div class="block-content">
+
+                  <div class="custom-table table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Código do produto</th>
+                          <th>Descrição do produto</th>
+                          <th>Período</th>
+                          <th>Código billing code</th>
+                          <th>Descrição do billing code</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="text-center">255</td>
+                          <td>MB Visa Card</td>
+                          <td class="text-center">27/09/2013</td>
+                          <td>LN008003</td>
+                          <td>Funcionário Socor Card</td>
+                        </tr>
+                        <tr>
+                          <td class="text-center">255</td>
+                          <td>MB Visa Card</td>
+                          <td class="text-center">17/06/2013</td>
+                          <td>AC009026</td>
+                          <td>Funcionário Empresa Energisa</td>
+                        </tr>
+                        <tr>
+                          <td class="text-center">255</td>
+                          <td>MB Visa Card</td>
+                          <td class="text-center">12/11/2012</td>
+                          <td>GF008057</td>
+                          <td>Gama Filho Ação Comercial</td>
+                        </tr>
+                        <tr>
+                          <td class="text-center">255</td>
+                          <td>MB Visa Card</td>
+                          <td class="text-center">04/06/2012</td>
+                          <td>AC008056</td>
+                          <td>Funcionários Usiminas - Ação 05/2012</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div><!-- table-responsive -->
+                  
+                </div><!-- .block-content -->
+              </div><!-- collapse -->
+            </div><!-- block -->
+
+            <div class="block">
+              <div class="block-header hide-block-content">
+                <div class="block-title">Ofertas de Tarifa</div>
+
+                <ul class="block-controls">
+                  <li>
+                    <a href="#"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+                  </li>
+                </ul>
+
+              </div><!-- .block-header -->
+
+              <div class="collapse in">
+                <div class="block-content">
+
+                  <div class="custom-table table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Descrição da Tarifa</th>
+                          <th>Período</th>
+                          <th>Valor do desconto (%)</th>
+                          <th>Meses de desconto</th>
+                          <th>Valor do desconto após o prazo (%)</th>
+                          <th>Meses após prazo de desconto</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Pacote Padronizado de Serviços I</td>
+                          <td class="text-center">27/09/2013</td>
+                          <td class="text-center">100</td>
+                          <td class="text-center">6</td>
+                          <td class="text-center">50</td>
+                          <td class="text-center">6</td>
+                        </tr>
+                        <tr>
+                          <td>Pacote Completo MB</td>
+                          <td class="text-center">17/06/2013</td>
+                          <td class="text-center">85</td>
+                          <td class="text-center">3</td>
+                          <td class="text-center">40</td>
+                          <td class="text-center">2</td>
+                        </tr>
+                        <tr>
+                          <td>Pacote Padronizado de Serviços II</td>
+                          <td class="text-center">02/06/2013</td>
+                          <td class="text-center">90</td>
+                          <td class="text-center">1</td>
+                          <td class="text-center">95</td>
+                          <td class="text-center">2</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div><!-- table-responsive -->
+                  
+                </div><!-- .block-content -->
+              </div><!-- collapse -->
+            </div><!-- block -->
+            
+          </div><!-- .modal-body -->
+
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- #action-detail -->
+    <!-- /Modal -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/bootstrap-select.js"></script> <!-- Select -->
+    <script src="js/bootstrap-filestyle.js"></script><!-- Campos de Arquivo -->
+
+    <script src="js/moment.js"></script><!--  Js para manipular data -->
+    <script src="js/locale/pt-br.js"></script><!-- Js para manipular data -->
+    <script src="js/bootstrap-datetimepicker.min.js"></script><!-- Seletor de Data e Tempo -->
+
+    <script src="js/forms.js"></script><!-- Para páginas de formulários -->
+    <script src="js/custom-infinite-scroll.js"></script>
+    <script src="js/functions.js"></script>
+  </body>
+</html>
